@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav ul li {
+    display: inline-block;
+    padding: 10px;
+    margin-left: 20px;
+    font-size: larger;
+  
+    
+}
+
+.main-nav {
+
+    position: sticky;  
+    height: 50px;
+    background-color: red;
+    top: 0;
+    width: 100%;
+    border: black solid 2px;
+
+}
+
+.icon {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 5px;
+    left: 1300px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer {
+    color: #fff;
+    background-color: black;
+    height: 35px;
+    padding: 5px;
+    border: red solid 2px;
+}
